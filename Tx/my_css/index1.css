@@ -1,0 +1,109 @@
+
+
+
+/* 底下操作 */
+.warp1 {
+    width: 100%;
+}
+.caozuo {
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background-color: white;
+}
+.an_niu {
+    flex: 1;
+}
+.an_niu div {
+    text-align: center;
+    padding-top: 5px;
+}
+.an_niu img {
+    width: 30px;
+    vertical-align: middle;
+}
+.an_niu span {
+   font-size: 10px;
+}
+/* 内容 */
+/* 搜索框 */
+.sousuo{
+width: 100%;
+height: 27px;
+}
+.sousuo img {
+    width: 26px;
+    vertical-align: middle;
+    border: none;
+}
+.sousuo input {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* 轮播区域 */
+.lunbo {
+    width: 100%;
+}
+.lunbo img {
+    width: 100%;
+}
+.lunbo span {
+    font-size: 10px;
+    padding-left: 10px;
+}
+/* 选播区 */
+.biao_ti {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+/* 选播区样式 */
+.duoduo {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+/* 小图片span */
+.shu_jia {
+    width: 45%;
+    display: inline-block;
+    padding-left: 2%;
+}
+/* 小图片 */
+.shu_jia img {
+    width: 45vw;
+    background-size: center;
+    padding-top: 10px;
+}
+.shu_jia span {
+    font-size: 10px;
+}
+.shu_jia div {
+    font-size: 13px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+
+
+.warp2 {
+    width: 100%;
+    height: 600px;
+    background-color: tomato;
+    display: none;
+}
+.warp3 {
+    width: 100%;
+    height: 600px;
+    display: none;
+    background-color: navy;
+}
+.warp4 {
+    width: 100%;
+    height: 600px;
+    display: none;
+    background-color: orangered;
+}
